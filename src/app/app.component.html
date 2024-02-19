@@ -1,0 +1,29 @@
+<!-- <div class="card" [style]="{ height: 'fit-content' }">
+    <p-splitter styleClass="mb-5">
+        <ng-template pTemplate>
+            <div class="col flex align-items-start justify-content-center"><app-home id="home"></app-home></div>
+        </ng-template>
+        <ng-template pTemplate>
+            <div class="col flex align-items-start justify-content-center"><app-sidebar></app-sidebar></div>
+        </ng-template>
+    </p-splitter>
+</div> -->
+
+
+<div class="card flex flex-row" [style]="{ height: 'fit-content' }">
+    <div class="flex align-items-start justify-content-center w-9">
+        <app-home id="home"></app-home>
+    </div>
+
+    <div class="flex align-items-start justify-content-start w-auto border-1 border-solid border-round">
+        <app-sidebar></app-sidebar>
+    </div>
+</div>
+<div class="flex w-12 justify-content-end align-items-end p-4">
+    <button ngxScrollTop [ngxScrollTopMode]="'classic'"
+        class="flex align-items-center justify-content-center bg-blue-200 border-circle border-none w-3rem h-3rem cursor-pointer">
+        <i class="fas fa-long-arrow-alt-up" style="color: white;"></i>
+    </button>
+</div>
+
+<router-outlet></router-outlet>

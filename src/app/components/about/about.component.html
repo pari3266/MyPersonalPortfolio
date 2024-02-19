@@ -1,0 +1,11 @@
+<div class="mt-[80px]">
+    <h1>About Me</h1>
+    <p>write about yourself..</p>
+
+    <div class="flex flex-wrap align-items-center justify-content-center">
+        <div class="shadow-2 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold border-bottom-2 border-primary-500" *ngFor="let item of items">
+            <h3>{{item.title}}</h3>
+            <i class={{item.iconClass}}></i>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+
+<h1>My Skills</h1>
+
+<p>Here are my skills in which I am good to work.</p>
+
+<div class="flex flex-wrap justify-content-center align-items-center">
+    <div class="flex flex-column justify-content-start align-items-start w-6" *ngFor="let item of skills">
+        <span>{{item.skillName}}</span>
+        <p-progressBar class="w-12" [value]="item.value"></p-progressBar>
+    </div>
+</div>
