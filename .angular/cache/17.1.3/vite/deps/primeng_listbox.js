@@ -1,15 +1,18 @@
 import {
+  Scroller,
+  ScrollerModule
+} from "./chunk-AUKS3UAL.js";
+import "./chunk-2HI55WA2.js";
+import {
+  NG_VALUE_ACCESSOR
+} from "./chunk-2EYK5DIZ.js";
+import {
   CheckIcon
 } from "./chunk-HBJSL5Q6.js";
 import {
   Ripple,
   RippleModule
 } from "./chunk-I67O37RM.js";
-import {
-  Scroller,
-  ScrollerModule
-} from "./chunk-AUKS3UAL.js";
-import "./chunk-2HI55WA2.js";
 import {
   BaseIcon
 } from "./chunk-QWIYZVWW.js";
@@ -26,9 +29,6 @@ import {
   SharedModule,
   UniqueComponentId
 } from "./chunk-6GDY4QR4.js";
-import {
-  NG_VALUE_ACCESSOR
-} from "./chunk-2EYK5DIZ.js";
 import {
   CommonModule,
   NgClass,

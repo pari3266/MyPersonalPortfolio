@@ -11,10 +11,9 @@ import { CardModule } from 'primeng/card';
 })
 export class AboutComponent {
   items = [
-    {iconClass: 'pi pi-check', title: 'Design'},
-    {iconClass: 'pen', title: 'web'},
-    {iconClass: 'pen', title: 'software'},
-    {iconClass: 'pen', title: 'app'},
-    {iconClass: 'pen', title: 'back'},
+    // {iconClass: 'pi pi-check', title: 'Design'},
+    {iconClass: 'pi pi-google', title: 'frontEnd development'},
+    {iconClass: 'pi pi-globe', title: 'site'},
+    {iconClass: 'pi pi-tablet', title: 'pwa'},
   ]
 }

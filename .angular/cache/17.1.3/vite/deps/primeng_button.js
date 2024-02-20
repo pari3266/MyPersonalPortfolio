@@ -1,10 +1,10 @@
 import {
+  SpinnerIcon
+} from "./chunk-2HI55WA2.js";
+import {
   Ripple,
   RippleModule
 } from "./chunk-I67O37RM.js";
-import {
-  SpinnerIcon
-} from "./chunk-2HI55WA2.js";
 import "./chunk-QWIYZVWW.js";
 import {
   DomHandler
