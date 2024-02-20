@@ -1,7 +1,7 @@
 <div class="flex p-card w-12 h-20 ">
     <div class="flex align-items-start flex-column m-4 w-full" *ngFor="let ed of educations">
-        <span class="m-2">{{ed.uniName}}</span>
-        <span class="m-2">{{ed.endDate | dateDayjs}} _ {{ed.startDate | dateDayjs}}</span>
-        <span class="m-2">{{ed.field}}</span>
+        <span class="m-2 text-3xl">{{ed.uniName}}</span>
+        <span class="m-2">{{ed.endDate}} _ {{ed.startDate}}</span>
+        <span class="m-2 text-blue-700">{{ed.field}}</span>
     </div>
 </div>

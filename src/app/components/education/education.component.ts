@@ -14,8 +14,7 @@ export class EducationComponent {
   endDate = new Date(this.unixTimestamp * 1000);
   startDate = new Date(this.unixTimestamp * 1000);
 
-
   educations = [
-    { uniName: 'uniName', startDate: this.startDate, endDate: this.endDate, field: 'field' },
+    { uniName: 'zanjan university', startDate: 'Sep 2015', endDate: 'Jun 2020', field: 'computer software engineering' },
   ]
 }

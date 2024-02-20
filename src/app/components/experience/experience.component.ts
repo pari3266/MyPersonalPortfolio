@@ -39,9 +39,7 @@ export class ExperienceComponent implements OnInit {
       title: 'Afarinesh —Intern & FrontEnd developer', date: 'Jun 2020- Mar 2021', description: `
     1. Behkhan (book social network) https://behkhaan.ir/
     2. Admin management website of Behkhan
-    3. Update the Barkat Foundation website
-    4. Admin management website of Barkat Foundation
-    5. Teaching front-end programming
+    3. Teaching front-end programming
     trainees(html,css,js,ts,angular12)
 
     *A book social network for people who want to share the books they read and
