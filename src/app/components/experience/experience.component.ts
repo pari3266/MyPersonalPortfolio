@@ -15,7 +15,7 @@ export class ExperienceComponent implements OnInit {
   date = new Date(this.unixTimestamp * 1000);
 
   jobs = [
-    { title: 'HamrahLotus -- FrontEnd developer', date: this.date, description: 'Credit allocation and wallet management system for employees of organizations, with customers like ewano, http://app.vee.ir/, https://vee.ir/', technologies: [] },
+    { title: 'HamrahLotus -- FrontEnd developer', date: 'Aug 2023 - now', description: 'Credit allocation and wallet management system for employees of organizations, with customers like ewano, http://app.vee.ir/, https://vee.ir/', technologies: [] },
     { title: 'Self-employed -- FrontEnd developer', date: 'Aug 2022 - Aug 2023', description: 'Studying and learning React and Angular and writing practice projects.I read these technologies in this period of time', technologies: ['nginx', 'react', 'material ui', 'styled components', 'RxJs', 'NgRx'] },
     {
       title: 'Arshin -- FrontEnd developer', date: 'Apr 2021 - Jul 2022', description:

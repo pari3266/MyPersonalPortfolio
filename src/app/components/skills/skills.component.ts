@@ -29,5 +29,7 @@ export class SkillsComponent {
     {skillName: 'Git' , value: 50},
     {skillName: 'primeNg' , value: 60},
     {skillName: 'primeFlex' , value: 60},
+    {skillName: 'React' , value: 50},
+    {skillName: 'Nextjs' , value: 50},
   ]
 }
